@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "react-scripts build",
+    "build": "webpack --mode production",
     "build:direct": "webpack --mode production",
     "start": "webpack serve --mode development",
     "render-build": "npm run build"
@@ -22,8 +22,9 @@
     "babel-loader": "^9.1.0",
     "css-loader": "^6.8.0",
     "html-webpack-plugin": "^5.5.0",
+    "react-scripts": "^5.0.1",
     "style-loader": "^3.3.0",
-    "webpack": "^5.88.0",
+    "webpack": "^5.102.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.0"
   },
