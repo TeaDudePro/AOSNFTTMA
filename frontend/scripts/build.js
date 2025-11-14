@@ -6,7 +6,7 @@ console.log('🚀 Building frontend for production...');
 
 try {
   // Сборка проекта
-  execSync('npx webpack --mode production', { stdio: 'inherit' });
+  execSync('node node_modules/webpack/bin/webpack.js --mode production', { stdio: 'inherit' });
   
   // Копирование манифеста TON Connect
   const manifestSource = path.join(__dirname, '../public/tonconnect-manifest.json');
