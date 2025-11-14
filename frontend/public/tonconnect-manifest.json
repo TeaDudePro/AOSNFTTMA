@@ -1,7 +1,7 @@
 {
-    "url": "https://your-app.vercel.app",
+    "url": "https://ton-nft-frontend.onrender.com",
     "name": "TON NFT Marketplace",
-    "iconUrl": "https://your-app.vercel.app/icon.png",
-    "termsOfUseUrl": "https://your-app.vercel.app/terms",
-    "privacyPolicyUrl": "https://your-app.vercel.app/privacy"
+    "iconUrl": "https://ton-nft-frontend.onrender.com/icon.png",
+    "termsOfUseUrl": "https://ton-nft-frontend.onrender.com/terms.html",
+    "privacyPolicyUrl": "https://ton-nft-frontend.onrender.com/privacy.html"
 }

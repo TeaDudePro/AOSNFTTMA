@@ -58,8 +58,15 @@ app.get('/', (req, res) => {
 });
 
 // Error handling middleware
+const logger = require('./utils/logger');
+
 app.use((err, req, res, next) => {
-  console.error('Error:', err.stack);
+  logger.error('Unhandled error', err, {
+    path: req.path,
+    method: req.method,
+    ip: req.ip
+  });
+  
   res.status(500).json({
     success: false,
     error: process.env.NODE_ENV === 'production' ? 'Internal server error' : err.message
