@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "npx webpack-cli --mode production",
+    "build": "npx webpack --mode production",
     "build:direct": "webpack --mode production",
     "start": "webpack serve --mode development",
     "render-build": "npm run build"
@@ -13,6 +13,7 @@
   "dependencies": {
     "@tonconnect/sdk": "^2.0.0",
     "@tonconnect/ui-react": "^2.0.0",
+    "axios": "^1.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
