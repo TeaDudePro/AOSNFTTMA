@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "webpack --mode production",
+    "build": "npx webpack-cli --mode production",
     "build:direct": "webpack --mode production",
     "start": "webpack serve --mode development",
     "render-build": "npm run build"
