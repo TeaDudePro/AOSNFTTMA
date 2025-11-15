@@ -100,7 +100,7 @@ function App() {
         >
             <div className={`app ${isMobile ? 'mobile' : ''} ${isTelegram ? 'telegram' : ''}`}>
                 <header className="app-header">
-                    <h1>🎭 TON NFT Marketplace</h1>
+                    <h1>AOS NFT STORE</h1>
                     <div className="environment-badge">
                         {isTelegram ? '📱 Telegram' : '🌐 Web'} 
                         {isMobile && ' • Mobile'}
